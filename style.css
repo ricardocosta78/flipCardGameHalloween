@@ -205,11 +205,30 @@ body {
 
 @media (max-width: 600px) {
   .game-container {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(4, auto);
+    margin-top: 30px 
+  }
+  .game-info{
+    font-size: 2em;
+    margin:0 20px 
+  }
+  .game-info-container {
+    flex-direction: row;
+    justify-content: center;
   }
 
-  .game-info-container {
-    flex-direction: column;
-    align-items: center;
+  .page-title {  
+    font-size: 3em;
   }
+  .card {
+    position: relative;
+    cursor: url('Assets/Cursors/GhostHover.cur'), auto;
+    height: 175px;
+    width:85px;
+  }
+  .overlay-text{
+    text-align: center;
+    flex-flow: wrap;
+  }
+
 }
