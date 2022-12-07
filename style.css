@@ -2,6 +2,8 @@
   font-family: 'Christmas';
   src: url('Assets/Fonts/Christmas.woff') format('woff'),
     url('Assets/Fonts/Christmas.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
